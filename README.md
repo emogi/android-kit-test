@@ -6,7 +6,9 @@ An app integrator must first activate our SDK before being able to use our servi
 # Assignment
 Your task is to implement the session activation method. 
 
-- Create a public method that collects data for the app kit. 
+- Create a public method that collects data for the app kit, with details specified below.
+- Prepare documentation for how an app integration partner would implement this.
+
 - Automatically collect as much information as possible, without requiring the app integrator to specify it
  - Device ID (AAID or app-specified unique ID)
  - Location (lat/long)
