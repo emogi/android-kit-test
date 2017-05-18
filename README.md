@@ -10,11 +10,11 @@ Your task is to implement the session activation method.
 - Prepare documentation for how an app integration partner would implement this.
 
 - Automatically collect as much information as possible, without requiring the app integrator to specify it
- - Device ID (AAID or app-specified unique ID)
- - Location (lat/long)
- - Device type
- - Device OS and version
- - Screen dimensions
+  - Device ID (AAID or app-specified unique ID)
+  - Location (lat/long)
+  - Device type
+  - Device OS and version
+  - Screen dimensions
 - Allow the app integrator to optionally specify:
   - Device ID
   - Location
