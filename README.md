@@ -12,32 +12,21 @@ Your task is to implement the session activation method.
 - Automatically collect as much information as possible, without requiring the app integrator to specify it
  - Device ID (AAID or app-specified unique ID)
  - Location (lat/long)
- - Device metadata
  - Device type
- - Connection speed
- - Battery level percent charge
  - Device OS and version
  - Screen dimensions
- - Pixel ratio and pixels per inch
-- Allow the app integrator to specify:
- - Device ID
- - Location
- - Allowed content formats (a list of any of these these available formats:
-    - gif
-    - emoji
-    - sticker
- - User age
- - User gender
-- Allow the app integrator to over-write: 
- - Device ID
- - Location
+- Allow the app integrator to optionally specify:
+  - Device ID
+  - Location
+  - User age
+  - User gender
 - POST this information to https://sand-cxp.emogi.com/v1/sessions (it may fail; that's OK)
 - Implement a response handler for the following scenarios. (Your handler doesn't actually need to do anything):
- - 200/OK
- - 400/ERROR/INVALID ARGUMENTS
- - 401/ERROR/AUTH FAILED
- - 500/UNEXPECTED SERVER ERROR
- - 503/SERVICE UNAVAILABLE
+  - 200/OK
+  - 400/ERROR/INVALID ARGUMENTS
+  - 401/ERROR/AUTH FAILED
+  - 500/UNEXPECTED SERVER ERROR
+  - 503/SERVICE UNAVAILABLE
 
 ## Request format
 ```
